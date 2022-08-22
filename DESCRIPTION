@@ -1,0 +1,20 @@
+Package: purpleR
+Type: Package
+Title: PurpleAir Data Interpretation
+Version: 0.1.0
+Author: Ruaraidh Dobson
+Maintainer: Ruaraidh Dobson <r.p.dobson@stir.ac.uk>
+Description: Clean, interpret and transform data from PA-II-SD PurpleAir
+            air quality monitors.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+      tidyverse,
+      xts,
+      timetk,
+      extrafont,
+      readxl,
+      ggrepel,
+      lubridate
+RoxygenNote: 7.2.1
